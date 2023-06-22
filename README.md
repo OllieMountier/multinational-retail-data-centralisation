@@ -30,6 +30,15 @@ The final table was was the date events found in a JSON file stored on S3.
 This was then cleaned, being dates, all the columns were ensured to be correct, such as months all being valid, days being under 31, times and date UUID's being the correct format.
 After this it was then uploaded to the sales_data, giving me 7 tables extracted, cleaned and uploaded to postgresql ready for querying.
 
+The second milestone of this project was to develop a star-based schema of my database. First, I had to cast the columns to the corrrect datatype, below is an example of the task.
+![image](https://github.com/OllieMountier/multinational-retail-data-centralisation/assets/116648304/bdba8b01-5d21-49ba-a5fb-f1175a759dba)
+For some of the columns, further changes were required, such as merging the "lat" and "latitude" columns for the store details table and creating weight categories in the product's table for the delivery team.  
+The first step in actually develoing the star based schema was assigning primary to the tables except for the orders_table. One column from each of the 6 tables one in the orders table, which was assigned the primary key.
+Finally, foreign keys were assigned to the orders table to reference to the primary keys in the others, completing the star based schema. If all is correct, the keys should match perfectly and assign, if there are extra values in the orders table or vice versa, further cleaning or re-evaluating of the clean would need to be done.
+
+The final milestone was querying the schema to gather metrics allowing the company to make more data-driven decisions and understand its sales. Examples of these queries and metrics include the speed of which the company is making sales and which month produced the most sales. Screenshots of these queries are shown below. 
+![image](https://github.com/OllieMountier/multinational-retail-data-centralisation/assets/116648304/a38f449a-03ae-42b4-a1bd-e443c1c36e81)
+![2023-06-22 (20)](https://github.com/OllieMountier/multinational-retail-data-centralisation/assets/116648304/daa012ec-6c2e-4c99-912c-83c460551f31)
 
 
 
