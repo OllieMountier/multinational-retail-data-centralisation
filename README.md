@@ -38,7 +38,8 @@ Finally, foreign keys were assigned to the orders table to reference to the prim
 
 The final milestone was querying the schema to gather metrics allowing the company to make more data-driven decisions and understand its sales. Examples of these queries and metrics include the speed of which the company is making sales and which month produced the most sales. Screenshots of these queries are shown below. 
 ![image](https://github.com/OllieMountier/multinational-retail-data-centralisation/assets/116648304/a38f449a-03ae-42b4-a1bd-e443c1c36e81)
-![2023-06-22 (20)](https://github.com/OllieMountier/multinational-retail-data-centralisation/assets/116648304/daa012ec-6c2e-4c99-912c-83c460551f31)
+![image](https://github.com/OllieMountier/multinational-retail-data-centralisation/assets/116648304/24494417-a51a-49bd-8130-e29c0a5f5cdd)
+
 
 
 
